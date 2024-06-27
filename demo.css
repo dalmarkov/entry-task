@@ -1,0 +1,151 @@
+.demo {
+    
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F0F4FC;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .content {
+    flex-grow: 1; 
+  }
+  
+  .demo h3 {
+    font-family: Manrope, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+    color: #1F4284;
+  }
+  
+  .demo p {
+    font-family: Manrope, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27.2px;
+    text-align: left;
+    margin: 20px 0;
+    color: #727272;
+  }
+  
+  .demo-btn {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #244C98; 
+    color: white;
+    border: none;
+    border-radius: 50px; 
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .demo-btn .circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 34px;
+    height: 34px;
+    background-color: white;
+    color: #1E3A8A; 
+    border-radius: 50%;
+  }
+  
+  .demo-btn .circle svg {
+    width: 16px;
+    height: 16px;
+    rotate: -45deg;
+  }
+  
+  .img {
+    align-self: flex-end;
+    margin-left: 20px; 
+    max-width: 50%; 
+  }
+  
+  @media (max-width: 1024px) {
+    .demo {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .img {
+      margin-left: 0;
+      max-width: 100%;
+      margin-top: 20px;
+      align-self: center;
+    }
+  
+    .demo-btn {
+      padding: 10px 50px;
+      margin-top: 20px;
+    }
+  
+    .demo-btn .circle {
+      margin-left: 10px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .demo h3 {
+      font-size: 24px;
+    }
+  
+    .demo p {
+      font-size: 15px;
+    }
+  
+    .demo-btn {
+      padding: 10px 30px;
+    }
+  
+    .demo-btn .circle {
+      margin-left: 5px;
+      width: 30px;
+      height: 30px;
+    }
+  
+    .demo-btn .circle svg {
+      width: 14px;
+      height: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .demo {
+      padding: 10px;
+    }
+  
+    .demo h3 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  
+    .demo p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  
+    .demo-btn {
+      padding: 8px 20px;
+    }
+  
+    .demo-btn .circle {
+      margin-left: 5px;
+      width: 25px;
+      height: 25px;
+    }
+  
+    .demo-btn .circle svg {
+      width: 12px;
+      height: 12px;
+    }
+  }
+  

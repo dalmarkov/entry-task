@@ -10,7 +10,6 @@ body {
 
 .container {
     display: flex;
-    border: 1px solid #ddd;
     background-color: #F0F4FC;
     border-radius: px;
     overflow: hidden;
@@ -52,9 +51,10 @@ body {
 
 .input-group input {
     width: calc(100% - 20px);
+    height: 20px;
     padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 2px;
+    border: none;
+    border-radius: 4px;
     background-color: #D7E2F6;
     margin-bottom: 0px;
     
@@ -66,18 +66,18 @@ body {
     align-items: center;
     margin-top: 25px;
     margin-bottom: 25px;
+    color: #5a6268;
 }
 
 .actions .recover {
     color: #007bff;
-    text-decoration: none;
-   
     
-    
+
 }
-.recover {
+.recover  {
     margin-top: 25px;
     margin-bottom: 25px;
+    text-decoration: none;
 }
 
 .actions .recover:hover {
@@ -89,17 +89,25 @@ body {
     width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 2px;
+    border-radius: 3px;
     background-color: #244C98;
     color: #fff;
     cursor: pointer;
     margin-bottom: 5px;
+    
+}
+
+.btn1 {
+    text-decoration: none;
+    color: #fff;
+
 }
 
 .btn.secondary {
     background-color: #F0F4FC;
     color: #244C98;
     border: 1px solid #244C98
+    
 }
 
 .btn:hover {
