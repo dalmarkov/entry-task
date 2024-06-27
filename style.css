@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    border: 1px solid #ddd;
+    background-color: #F0F4FC;
+    border-radius: px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.close-btn {
+    margin-left: 93%;
+    top: 10px;
+    right: 10px;
+    background: #fff;
+    border-radius: 3px;
+    font-size: 20px;
+    border: none;
+    
+}
+
+.login-form {
+    padding: 10px;
+    width: 300px;
+    border-right: 1px solid #ddd;
+}
+
+.login-form h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 5px;
+    
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+.input-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    background-color: #D7E2F6;
+    margin-bottom: 0px;
+    
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.actions .recover {
+    color: #007bff;
+    text-decoration: none;
+   
+    
+    
+}
+.recover {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.actions .recover:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: #244C98;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.btn.secondary {
+    background-color: #F0F4FC;
+    color: #244C98;
+    border: 1px solid #244C98
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn.secondary:hover {
+    background-color: #5a6268;
+}
+
+
